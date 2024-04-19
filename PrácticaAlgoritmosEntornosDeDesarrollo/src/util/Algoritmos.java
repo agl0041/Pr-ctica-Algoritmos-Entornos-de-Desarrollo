@@ -19,5 +19,26 @@ public class Algoritmos
 		}
 		return factorial;
 	}
+	
+	/**
+	 *  Se recibe un int y devuelve boolean segun sea primo o no
+	 * 
+	 * @param numero 	numero a calcular si es primo
+	 * @return 			boolean segun si el numero aportado es primo
+	 */
+	public static boolean esPrimo(int numero) 
+	{
+		boolean primo = true;
+		
+		for (int i = 2; i < numero; i++) 
+		{
+			if (numero % i == 0) 
+			{
+				primo = false;
+				break;
+			}
+		}
+		return primo;
+	}
 
 }
