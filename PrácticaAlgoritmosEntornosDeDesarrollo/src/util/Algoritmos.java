@@ -3,6 +3,12 @@ package util;
 
 public class Algoritmos 
 {
+	/**
+	 *  Se recibe un int y devuelve el factorial del numero aportado
+	 * 
+	 * @param numero 	numero a calcular el factorial
+	 * @return 			factorial del numero aportado
+	 */
 	public static int factorial(int numero) 
 	{
 		int factorial = 1;
