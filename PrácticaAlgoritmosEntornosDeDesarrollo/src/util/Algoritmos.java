@@ -40,5 +40,6 @@ public class Algoritmos
 		}
 		return primo;
 	}
+	
 
 }
