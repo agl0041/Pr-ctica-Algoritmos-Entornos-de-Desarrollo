@@ -13,9 +13,9 @@ public abstract class Algoritmos
 	{
 		int factorial = 1;
 		
-		for (int i = 1; i < numero; i++) 
+		for (int i = 1; i <= numero; i++) 
 		{
-			factorial = factorial * i;
+			factorial *= i;
 		}
 		return factorial;
 	}
