@@ -1,7 +1,7 @@
 //ALVARO GARCIA LAMUDA
 package util;
 
-public class Algoritmos 
+public abstract class Algoritmos 
 {
 	/**
 	 *  Se recibe un int y devuelve el factorial del numero aportado
