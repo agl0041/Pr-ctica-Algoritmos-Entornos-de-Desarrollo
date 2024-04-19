@@ -20,6 +20,7 @@ public class Algoritmos
 		return factorial;
 	}
 	
+	
 	/**
 	 *  Se recibe un int y devuelve boolean segun sea primo o no
 	 * 
@@ -41,5 +42,19 @@ public class Algoritmos
 		return primo;
 	}
 	
+	
+	/**
+	 *  Se recibe un int y devuelve el numero de fibonacci del numero aportado
+	 * 
+	 * @param numero 	numero a calcular su fibonacci.
+	 * @return 			fibonacci del numero aportado
+	 */
+	public static int fibonacci(int n) 
+	{
+        if (n <= 1) 
+            return n;
 
+        else 
+            return fibonacci(n - 1) + fibonacci(n - 2);
+	}
 }
