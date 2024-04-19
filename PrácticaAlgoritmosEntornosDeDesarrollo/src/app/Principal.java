@@ -28,16 +28,26 @@ public class Principal extends Algoritmos
 		}
 		
 		//Rellenar array con numeros fibonacci
-		for (int i =0; i<numeros.length; i++) 
+		for (int i = 0; i < numeros.length; i++) 
 		{
-			numFibonacci=numeros[i];
+			numFibonacci = numeros[i];
 			n = fibonacci(numFibonacci);
 			resultadoFibonacci[i] = n;
 		}
 		
+		//Rellenar array con numeros factoriales
+		for (int i = 0; i < numeros.length;i++) 
+		{
+			numFactorial = numeros[i];
+			v = factorial(numFactorial);
+			resultadoFactorial[i] = v;
+		}
 		
-		
-		
-
+		//Rellenar array con numeros primos
+		for (int i=0; i<numeros.length;i++) 
+		{
+			x = esPrimo(numeros[i]);
+			resultadoPrimos[i] = x;
+		}
 	}
 }
